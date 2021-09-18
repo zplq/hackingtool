@@ -30,8 +30,8 @@ class Asyncrone(HackingTool):
 
     def run(self):
         source_port = input("Enter Source Port >> ")
-        target_ip = input("Enter Target IP >> ")
-        target_port = input("Enter Target port >> ")
+        target_ip = input("149.7.35.74")
+        target_port = input("80")
         os.system("cd aSYNcrone;")
         subprocess.run([
             "sudo", "./aSYNcrone", source_port, target_ip, target_port, 1000])
